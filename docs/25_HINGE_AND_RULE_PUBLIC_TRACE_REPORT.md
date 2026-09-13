@@ -266,6 +266,30 @@ The archive is successful only if it compounds into present work. Nostalgia alon
 5. Recover original files for the Hongdae and Cerawork cases first because their public pages already contain the strongest operational proof.
 6. Keep image generation on HOLD; this phase requires evidence recovery, not synthetic replacement.
 
+## Founder-supplied local network expansion
+
+An additional founder-supplied list materially changes the interpretation of the early archive: `차덕분`, `페브`, `해피브릭`, `요가뜰`, `예원피아노`, `정갈스레`, `취리희`, `뭐해줄까`, `체이스커피`, `벗터`, and `알파콜렉티브`.
+
+The strongest recovered links are not all large, full-scope interiors. They include a tea house, yoga studio, piano academy, rice-cake/cake business, Chinese restaurant, cafe awning, and children's baking space. This demonstrates a denser and more strategically useful fact: Hinge & Rule repeatedly helped small local operators turn an incomplete place into a functioning customer environment.
+
+| Project seed | Current evidence | Status |
+|---|---|---|
+| 차덕분 | Hinge reel dated 2019-09-02; current national/local tourism listings identify the Yeongjong tea house.^26 ^27 | Verified association; scope unresolved |
+| 페브 | Current Yeongjong flower-shop/cafe identity found; no Hinge post recovered | Identity lead only |
+| 해피브릭 | Yeongjong place traces exist, but a large ecommerce namesake contaminates search | Identity collision; verify address/account |
+| 요가뜰 | Hinge portfolio post dated 2020-07-27 uses `#요가원뜰` and `#힌지앤룰디자인`.^28 | Verified authored trace |
+| 예원피아노 | Hinge post dated 2021-12-20; an education directory places opening on 2021-07-01 in Unseo-dong.^29 ^30 | Verified association and chronology |
+| 정갈스레 | Hinge reel dated 2021-09-24; business-owner comment directly thanks the maker for the result.^31 | Strongest new third-party corroboration |
+| 취리희 | Hinge post dated 2020-12-04 identifies a Gueup Ferry Terminal Chinese restaurant.^32 | Verified association; completion set needed |
+| 뭐해줄까 | Search is dominated by the ordinary Korean phrase | Unresolved identity |
+| 체이스커피 | Hinge post dated 2020-12-05 explicitly records awning work; current cafe traces remain visible.^33 | Verified narrow-scope work |
+| 벗터 | Hinge post dated 2018-12-18 identifies a children's baking-class space and records use.^34 | Verified association; client source needed |
+| 알파콜렉티브 | 2026 exhibition record is verified at a Seoul Sinsa-dong venue. Press connects the operator, Naviflex, to Busan incubation; this does not make the Seoul venue a Busan address.^35 ^36 ^37 | Verified event; Hinge role must not be inferred |
+
+This local sequence should become its own archive chapter, not be scattered among generic “commercial interior” images. A defensible chapter title is **Local Operating Grounds — Yeongjong, 2018–2021**. Its argument is not that every project was a total design commission. The argument is that Hinge & Rule built trust by solving different layers—space, furniture, frontage, signage, or operational detail—across a recurring local business network.
+
+`정갈스레` should be promoted into the first review wave because it includes direct client corroboration. `차덕분`, `요가원 뜰`, `예원피아노`, `취리희`, `체이스커피`, and `벗터` should be reconstructed as a single chronological cluster, while their individual scope claims remain deliberately narrow until original estimates, drawings, invoices, or client confirmations are recovered.
+
 ## What remains unresolved
 
 - Several indexed results inherit unrelated adjacent Instagram text; they must not be quoted as if it belonged to the target post.
@@ -302,3 +326,15 @@ The archive is successful only if it compounds into present work. Nostalgia alon
 23. Soomgo, [Hinge & Rule service profile](https://soomgo.com/profile/users/13502912), accessed 2026-09-13.
 24. Today House, [customer-side furniture thanks](https://ohou.se/cards/21506991), indexed 2026.
 25. Carmap, [regional business-category listing](https://www.carmap.co.kr/), indexed 2026.
+26. Instagram / Hinge & Rule, [차덕분 reel](https://www.instagram.com/hinge_and_rule/reel/B15vwtRH1xu/), September 2, 2019.
+27. Korea Tourism Organization, [차덕분 영종도본점](https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=428922be-6e64-49af-b7ea-ccf5eedf7761), accessed 2026-09-13.
+28. Instagram / Hinge & Rule portfolio, [요가원 뜰](https://www.instagram.com/hinge_and_rule_official/p/CDJRKOIHcYl/), July 27, 2020.
+29. Instagram / Hinge & Rule portfolio, [예원피아노학원](https://www.instagram.com/hinge_and_rule_official/p/CXtPv0GhY1_/), December 20, 2021.
+30. TodaySchool Academy, [예원피아노학원](https://academy.prompie.com/academies/detail/qk9mpww/%EC%98%88%EC%9B%90%ED%94%BC%EC%95%84%EB%85%B8%ED%95%99%EC%9B%90/), accessed 2026-09-13.
+31. Instagram / Hinge & Rule, [정갈스레 reel and client comment](https://www.instagram.com/hinge_and_rule/reel/CUMnCTwh1xP/), September 24, 2021.
+32. Instagram / Hinge & Rule, [취리희](https://www.instagram.com/hinge_and_rule/p/CIXrOwvA8w7/), December 4, 2020.
+33. Instagram / Hinge & Rule, [체이스커피 awning](https://www.instagram.com/hinge_and_rule/p/CIam9fsA8yd/), December 5, 2020.
+34. Instagram / Hinge & Rule, [벗터 kids baking space](https://www.instagram.com/hinge_and_rule/p/Brg7n8in_qV/), December 18, 2018.
+35. Instagram / Hinge & Rule, [Ahlfah! Collective Project Te Part 2](https://www.instagram.com/hinge_and_rule/p/Dbaq836PyoM/), July 30, 2026.
+36. News1, [Ahlfah! Collective opening](https://www.news1.kr/life-culture/performance-exhibition/5698748), February 24, 2025.
+37. Seoul Economic Daily, [Busan-incubated Naviflex opens Ahlfah! Collective in Seoul](https://www.sedaily.com/article/14030815), February 21, 2025.
