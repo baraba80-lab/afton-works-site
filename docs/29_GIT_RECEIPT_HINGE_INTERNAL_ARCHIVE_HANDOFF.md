@@ -32,4 +32,14 @@ The next Codex must perform a metadata-first discovery pass over already authori
 ## Commit
 
 Local handoff commit: `d0a969a` (`docs: hand off Hinge internal archive research`).  
-Remote publication commit(s): record after GitHub publication.
+Local receipt update: `b71e0da` (`docs: record internal archive handoff commit`).
+
+Remote publication commits on `main`:
+
+- `2a9663a5a257ffa98661bd953831d3a8c15c4efc` — agent privacy boundary
+- `f17f0b94622f80c42aa1e0befa6c3f19584e7deb` — Codex task handoff
+- `a94759f0e251f703cd06a1b0b79eb4a0da1e1f09` — cross-agent continuity update
+- `8adae89a9170d8a4507307192d7b86f5368c453e` — private source ignore rules
+- `66d9e30f78a48bf51b20c0e788b32286db748441` — internal archive research protocol
+- `4e67be12a31a27a1f034428b13d64c148ad4e733` — sanitized index template
+- `9205f323f98a4c9d259800283dcdd8e4aee237f6` — initial remote receipt
