@@ -16,6 +16,8 @@ Build and publish a lightweight temporary landing experience before the full per
 - [`docs/19_GIT_RECEIPT_FOUNDER_ARCHITECTURE.md`](./docs/19_GIT_RECEIPT_FOUNDER_ARCHITECTURE.md) — founder-architecture commit receipt
 - [`docs/20_INSTAGRAM_ARCHIVE_TRANSITION_PLAN.md`](./docs/20_INSTAGRAM_ARCHIVE_TRANSITION_PLAN.md) — Hinge & Rule closure and UNSEEN_RATIO publishing plan
 - [`docs/21_GIT_RECEIPT_INSTAGRAM_TRANSITION.md`](./docs/21_GIT_RECEIPT_INSTAGRAM_TRANSITION.md) — Instagram transition planning receipt
+- [`docs/22_HINGE_CLOSING_EDITION_CONTACT_SHEET.md`](./docs/22_HINGE_CLOSING_EDITION_CONTACT_SHEET.md) — Hinge & Rule final nine-post candidate grid
+- [`docs/23_UNSEEN_ISSUE01_CONTACT_SHEET.md`](./docs/23_UNSEEN_ISSUE01_CONTACT_SHEET.md) — UNSEEN_RATIO Issue 01 editorial sequence
 - [`docs/02_VISUAL_REFERENCE_PLAN.md`](./docs/02_VISUAL_REFERENCE_PLAN.md) — reference and image-generation plan
 - [`docs/04_GENERATED_ASSET_INDEX.md`](./docs/04_GENERATED_ASSET_INDEX.md) — generated-image index
 - [`docs/05_CONCEPT_SHEET_BATCH01.md`](./docs/05_CONCEPT_SHEET_BATCH01.md) — first concept sheet
