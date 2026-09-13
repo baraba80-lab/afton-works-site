@@ -1,0 +1,11 @@
+---
+import Document from '../components/editorial/Document.astro';
+import { loadReviewCore } from '../content/load.js';
+import type { PageView } from '../editorial/core.js';
+export function getStaticPaths(){
+  return loadReviewCore().pages().filter(p=>p.path!=='/').map(page=>({params:{path:page.path.slice(1,-1)},props:{page}}));
+}
+interface Props {page:PageView}
+const {page}=Astro.props;
+---
+<Document {page}/>

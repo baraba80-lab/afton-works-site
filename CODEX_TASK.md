@@ -1,101 +1,34 @@
-# CODEX TASK — AFTON Visual Research / Phase B
+# CODEX TASK: non-design editorial core review and continuation
 
-## Current objective
-Build the **reference contact sheet and concrete landing grammar** from the completed Phase A collection.
+Status: IMPLEMENTATION_CANDIDATE / USER_PREPARING_DESIGN
+Boundary: GENERATION HOLD / CREDIT SPEND HOLD / MERGE HOLD / DEPLOY HOLD
 
-Phase A reference collection is complete.
-
-**Do not generate images yet.**
-Higgsfield generation remains on HOLD until the user reviews and explicitly approves the contact sheet / landing grammar.
+The user delegated non-design work after taking visual design back. Do not restart mood research or generate images. The earlier contact-sheet phase is historical; retain its evidence.
 
 ## Read first
-1. `AGENTS.md`
-2. `research/REFERENCE_MANIFEST.md`
-3. `docs/11_DESIGN_MOTIF_LIBRARY_V01.md`
-4. `docs/12_MOTIF_REVIEW_CURRENT.md`
-5. `docs/13_REFERENCE_CONTACT_SHEET_SPEC.md`
-6. `docs/07_IMAGE_PROMPT_LIBRARY.md` — planning material only; do not execute
+1. AGENTS.md
+2. docs/20_DIRECTION_APPROVAL_AND_FOUNDER_HANDOFF.md (context-only correction)
+3. docs/EDITORIAL_CORE_V01.md
+4. Current branch source and tests; re-read refs and check other work before edits.
 
-## Phase B — contact sheet + motif micro-selection
+## Immediate task
+Review the executable candidate slice, not another strategy memo. Reuse the eight entity contracts and implement/fix only what actual test evidence requires. The web GPT has prepared a tested reference implementation on an isolated branch; this is not a claim that Codex executed it.
 
-### Step 1 — normalize reference filenames
-Inspect the existing files under:
-`research/reference-only/`
+1. Verify the candidate against the current repo and existing Astro lockfile.
+2. Run npm ci under Node >=22.12.0, then npm run verify:editorial.
+3. Serve dist only on localhost and run the Playwright smoke harness. Check Home -> Issue -> Article -> Scent Dossier -> Info and the direct Home -> Scent route.
+4. Inspect candidate/public boundaries, missing data, valid link/anchor destinations, and correct handling of issue query context.
+5. Check the strict renderer boundary: no personal notes, reference images, formula/private data, invented product facts or new design themes.
+6. Reconcile any differences from the long-form candidate contract; keep design separate. Do not quietly claim full conformance where the current slice is deliberately narrower.
+7. Return tested SHA, changed files, actual logs, concrete remaining items and next action.
 
-Normalize filenames so every reference file has the correct image extension matching its actual format.
+## Do not block on
+User artwork, new photography, founder/profile content, CMS setup, equipment, payment, or filename normalization.
 
-Rules:
-- preserve the original bytes
-- do not resize / recompress / crop / recolor
-- keep all third-party references under `research/reference-only/`
-- update `research/REFERENCE_MANIFEST.md` to the final normalized paths
+## Next functional backlog after review
+- Optional unpublished-related-content warnings (currently excluded from public views without warnings).
+- Expanded accessibility regression: screen-reader manual review, real browser zoom and long-title fixture build.
+- Route redirect map only if a previously published slug actually changes.
+- Install user's design later through rendering components, not by changing source entities or inventing content.
 
-### Step 2 — build the contact sheet
-Create:
-`docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md`
-
-Follow `docs/13_REFERENCE_CONTACT_SHEET_SPEC.md` exactly.
-
-If useful for visual inspection, also create:
-`research/reference-contact-sheet.html`
-
-The Markdown file remains the source of truth.
-
-The contact sheet must show all 14 collected references and group them by motif.
-
-### Step 3 — annotate every frame
-For each reference frame record:
-- source / project
-- exact source URL
-- motif
-- BORROW
-- DO NOT COPY
-- AFTON USE
-
-Keep the analysis tied to what the actual collected frame demonstrates.
-Do not fill gaps from general design knowledge when the frame does not support the claim.
-
-### Step 4 — motif micro-selection
-Use the evidence to reduce the primary motifs into **concrete visual moves**.
-
-Focus first on:
-- M01 CONTROLLED VARIATION
-- M03 AMBIGUOUS CENTER
-- M04 ORDER + ONE CONTRADICTION
-
-M06 ARCHIVE / RETURN / TIME should become an information-architecture rule rather than a copied visual treatment.
-
-M02 and M05 remain supporting/future interaction motifs.
-
-### Step 5 — proposed landing grammar
-End `docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md` with:
-`PROPOSED AFTON LANDING GRAMMAR v0.1`
-
-Maximum 6 rules.
-Every rule must be concrete enough to implement later in CSS/layout/image direction.
-
-Do not define fake precision. If no real measurement has been tested, describe the relationship qualitatively.
-
-### Step 6 — stop for user approval
-Stop after the contact sheet and landing grammar are committed.
-
-Do **not**:
-- generate in Higgsfield
-- use image-generation API/MCP tools
-- spend credits
-- execute P01–P24
-- build or merge a final landing
-- deploy the site
-
-Wait for explicit user approval.
-
-## Completion condition for Phase B
-The task is complete when the repository contains:
-1. normalized reference filenames
-2. updated `research/REFERENCE_MANIFEST.md`
-3. `docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md`
-4. optional `research/reference-contact-sheet.html` if useful
-5. concrete micro-selection for M01/M03/M04
-6. `PROPOSED AFTON LANDING GRAMMAR v0.1`
-7. a concise commit / issue comment reporting Phase B completion
-8. no new generated media and no credit spend
+Source-record work on main is a separate track; do not overwrite it or expose its contents. No automatic timer or external agent execution is established by this file.

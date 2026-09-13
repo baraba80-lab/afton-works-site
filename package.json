@@ -10,7 +10,10 @@
     "check": "astro check",
     "cf:types": "wrangler types",
     "cf:dry-run": "npm run build && wrangler deploy --dry-run --outdir .wrangler/dry-run",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "node scripts/deploy-hold.mjs",
+    "test:editorial": "tsc -p tsconfig.editorial.json && node --test .editorial-test/tests/*.test.js",
+    "build:review": "astro build",
+    "verify:editorial": "npm run test:editorial && npm run check && npm run build:review"
   },
   "dependencies": {
     "astro": "7.3.2"

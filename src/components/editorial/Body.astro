@@ -1,0 +1,12 @@
+---
+import type { ViewBlock } from '../../editorial/core.js';
+interface Props { blocks?:ViewBlock[]; nested?:boolean }
+const {blocks=[],nested=false}=Astro.props;
+---
+{blocks.map(b=>{
+  if(b.type==='paragraph')return <p>{b.text}</p>;
+  if(b.type==='heading'){const Tag=(nested?'h3':b.level===2?'h2':'h3') as 'h2'|'h3';return <Tag id={b.anchor}>{b.text}</Tag>;}
+  if(b.type==='list'){const Tag=b.ordered?'ol':'ul';return <Tag>{b.items.map(item=><li>{item}</li>)}</Tag>;}
+  if(b.type==='quote')return <blockquote><p>{b.text}</p>{b.attribution&&<footer>{b.attribution}</footer>}</blockquote>;
+  if(b.type==='link')return <p><a href={b.href}>{b.label}</a></p>;
+})}
