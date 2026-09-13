@@ -89,3 +89,7 @@ Continue Phase B without generation:
 - stop for user approval.
 
 In parallel, the Hinge & Rule archive has one approved preparation task that does not require image generation: assemble founder-held original files and rights/credit confirmations for the first six case clusters named in `docs/25_HINGE_AND_RULE_PUBLIC_TRACE_REPORT.md`. Do not publish or copy third-party media until rights are confirmed.
+
+The founder has now confirmed that the internal archive also contains estimates, saved project documents, furniture drawings, shop drawings, site drawings, and related design records. Treat these as the primary evidence layer for authorship, scope, chronology, fabrication knowledge, and site execution. The exact research procedure, security boundary, evidence grades, and deliverables are binding in `docs/28_HINGE_INTERNAL_ARCHIVE_RESEARCH_HANDOFF.md`.
+
+The next Codex must begin with a read-only inventory of already authorized and accessible storage. It must not upload raw internal files to this public repository. Public outputs may contain only sanitized metadata, abstract source IDs, project associations, evidence grades, and findings that do not expose private client or commercial information.
