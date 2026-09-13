@@ -1,0 +1,113 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ScentField from '../components/ScentField.astro';
+
+const title = 'AFTON — Familiar, not identifiable.';
+const description = 'A quiet study of what fragrance leaves behind.';
+---
+
+<SiteLayout {title} {description}>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand-link" href="#top" aria-label="AFTON home">
+        <img src="/brand/afton-wordmark.svg" alt="afton." />
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#current">Current work</a>
+        <a href="#practice">Practice</a>
+        <a href="#contact">Info</a>
+      </nav>
+      <span class="site-state">01 / STUDY</span>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__identity">
+          <p class="eyebrow">AFTON.WORKS / SEOUL / 2026</p>
+          <img class="hero__wordmark" src="/brand/afton-wordmark.svg" alt="afton." />
+        </div>
+
+        <div class="hero__statement">
+          <h1 id="hero-title">Familiar,<br />not identifiable.</h1>
+          <p>a quiet study of what fragrance leaves behind</p>
+        </div>
+
+        <div class="hero__field">
+          <ScentField />
+        </div>
+
+        <p class="hero__note">Fragrance / object / record</p>
+        <a class="scroll-cue" href="#current">Enter the current study <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="current-work" id="current" aria-labelledby="current-title">
+        <div class="section-index">
+          <p>01 / CURRENT WORK</p>
+          <p>ACTIVE STUDY</p>
+        </div>
+
+        <div class="current-work__title">
+          <p class="eyebrow">SCENT 01</p>
+          <h2 id="current-title">After Blue Sunset</h2>
+        </div>
+
+        <div class="current-work__copy">
+          <p class="lead">A blue hour remembered through warm air: mineral, softened, and still slightly unresolved.</p>
+          <dl class="scent-sequence">
+            <div><dt>First contact</dt><dd>cool air / mineral light</dd></div>
+            <div><dt>Body</dt><dd>soft warmth / open space</dd></div>
+            <div><dt>Aftertone</dt><dd>the colour left after the scene</dd></div>
+          </dl>
+        </div>
+
+        <div class="current-work__status">
+          <span>RELEASE STATE</span>
+          <strong>IN STUDY</strong>
+        </div>
+      </section>
+
+      <section class="practice" id="practice" aria-labelledby="practice-title">
+        <div class="section-index">
+          <p>02 / PRACTICE</p>
+          <p>WHAT REMAINS</p>
+        </div>
+
+        <h2 id="practice-title">We make fragrance, objects, and records around what remains after scent.</h2>
+
+        <div class="practice__notes">
+          <p>Observation before explanation.</p>
+          <p>Material before category.</p>
+          <p>Revision before certainty.</p>
+        </div>
+      </section>
+
+      <section class="closing" id="contact" aria-labelledby="closing-title">
+        <p class="eyebrow">AFTON / IN PROGRESS</p>
+        <h2 id="closing-title">Some things become clear<br />only after they leave.</h2>
+        <div class="closing__meta">
+          <p>Temporary field note<br />Full site in development</p>
+          <p>Seoul, Korea<br />afton.works</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="/brand/afton-wordmark.svg" alt="afton." />
+      <p>© 2026 AFTON</p>
+      <a href="#top">Back to field ↑</a>
+    </footer>
+  </div>
+
+  <script>
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.setAttribute('data-visible', 'true');
+        });
+      },
+      { threshold: 0.14 },
+    );
+
+    document.querySelectorAll('section').forEach((section) => observer.observe(section));
+  </script>
+</SiteLayout>
