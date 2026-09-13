@@ -27,6 +27,13 @@ Authenticated Instagram review established:
 
 No Instagram account content was modified.
 
+The public-web trace is now documented in:
+
+- `docs/25_HINGE_AND_RULE_PUBLIC_TRACE_REPORT.md`
+- `research/hinge-and-rule-public-trace/SOURCE_LEDGER_2026-09-13.csv`
+- `research/hinge-and-rule-public-trace/SEARCH_LOG_2026-09-13.md`
+
+This pass recovered client/collaborator credits, Soomgo operating and project records, Threads method notes, YouTube/Today House traces, and business-directory name variants. Treat the source ledger as the discovery map for future archive verification.
 ## Strategic decisions
 
 1. Hinge & Rule remains the founder proof/archive and selective cash engine.
@@ -73,3 +80,5 @@ Continue Phase B without generation:
 - compare external motifs against Hinge & Rule / UNSEEN_RATIO native evidence;
 - propose the final landing grammar;
 - stop for user approval.
+
+In parallel, the Hinge & Rule archive has one approved preparation task that does not require image generation: assemble founder-held original files and rights/credit confirmations for the first six case clusters named in `docs/25_HINGE_AND_RULE_PUBLIC_TRACE_REPORT.md`. Do not publish or copy third-party media until rights are confirmed.
