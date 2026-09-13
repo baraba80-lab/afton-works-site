@@ -5,6 +5,14 @@
 - Scope: eleven founder-supplied project/search seeds added to the Hinge & Rule public-trace investigation
 - Source ledger: expanded from 36 to 47 records
 - New seed ledger: 11 project identities or leads
+- Local bundle commit: `cae3b78`
+- GitHub publication commits:
+  - report expansion: `92eef8e8abd5fcdb4fa4773ca96b57ab40846235`
+  - cross-agent handoff: `d261af9304d1ed02794d6005d7afc9d084b85ea3`
+  - search-term expansion: `c594dac99359f60cbe58c6f31ab54b950859831b`
+  - 47-record source ledger: `0af1cd2095428735049fc4cf7a14bdc7e92c0d19`
+  - 11-row project seed ledger: `3bd56ec80daf41ef90036f106cff97293c7fe800`
+  - initial receipt publication: `2b1356d8bcbbe2c9379e49aa41460fffb8b8a149`
 - Browser mutation status: read-only; no account, post, profile, message, comment, review, or listing changed
 - Rights status: third-party visibility and comments are evidence, not automatic reuse permission
 
