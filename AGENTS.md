@@ -66,6 +66,12 @@ The temporary site must remain extremely light. Prefer static image / CSS / SVG.
 7. Keep browser-generation logs free of credentials, cookies, billing details, tokens, and account secrets.
 8. Commit coherent, reviewable changes.
 
+## Internal archive boundary
+
+Hinge & Rule's internal estimates, contracts, project documents, furniture drawings, shop drawings, site drawings, CAD/model files, and field records are private source material. They may be inspected read-only when the founder has already made the relevant storage available, but they must not be copied into this public repository.
+
+For internal-archive research, follow `docs/28_HINGE_INTERNAL_ARCHIVE_RESEARCH_HANDOFF.md`. Commit only sanitized indexes and findings. Use abstract source IDs instead of exact private paths, and never commit customer contacts, signatures, bank or tax identifiers, exact residential addresses, credentials, confidential contract terms, or unapproved line-item pricing.
+
 ## Current visual references
 Use as directional references only:
 - Studio Dumbar / DEMO: controlled variation, variable identity
