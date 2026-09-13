@@ -7,6 +7,19 @@ The immediate goal is NOT to build the full personalization system. The immediat
 
 Before implementing the landing, complete the current visual research / concept-sheet task in `CODEX_TASK.md`.
 
+## Founder continuity rule
+AFTON is not an anonymous perfume brief and this repository is not a disposable delivery package.
+
+The founder is a technician, builder, researcher, designer, and venture/system architect whose work moves from concept through physical execution, operating design, research, and commercialization. Previous projects repeatedly created value that was later handed to other operators. AFTON must preserve authorship, reusable IP, research data, customer relationships, and commercial return without turning collaboration into a struggle for total control.
+
+Before changing positioning, information architecture, business logic, credits, ownership language, or the public narrative, read:
+- `docs/15_HINGE_AND_RULE_ARCHIVE_ANALYSIS.md`
+- `docs/16_FOUNDER_OPERATING_SYSTEM.md`
+- `docs/17_AFTON_VENTURE_ARCHITECTURE_AND_ROADMAP.md`
+- `docs/18_CROSS_AGENT_HANDOFF_2026-09-13.md`
+
+Allocate work by demonstrated fit: the founder leads planning, structure, design, systems, and marketing; Soappuccino leads perfumery practice, materials, sampling, and sensory evaluation. Do not reduce either party to a hidden service provider, and do not imply ownership transfers that have not been explicitly agreed in writing.
+
 ## Design principle
 **Structure is precise. Perception is slightly unstable.**
 

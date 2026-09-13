@@ -48,6 +48,22 @@ Ambiguous perceptual material:
 
 The site should alternate between EVIDENCE and MEMORY so it never becomes either a sterile lab site or a generic perfume campaign.
 
+## Founder-native evidence
+
+The Hinge & Rule and UNSEEN_RATIO archives are primary internal evidence, not secondary inspiration.
+
+Reuse their underlying behaviors:
+
+- a large quiet field held by one small object;
+- daylight treated as a material and a measure of time;
+- raw making evidence beside a controlled finished result;
+- material junctions: wood / metal / stone / paper / cloth;
+- absence inferred through a chair, cup, garment, tool, mark, or unfinished edge;
+- a numbered record showing how one observation becomes the next;
+- real tools, samples, notes, code, and revision states as proof of authorship.
+
+Do not copy old posts literally. Translate the founder's long-standing method into the new image and information system.
+
 ## Scent Field
 A Scent Field is not a literal formula visualization. It is a generated abstract field whose behavior can later be driven by public sensory axes such as:
 - dryness
@@ -88,3 +104,5 @@ Minimum content:
 - minimal status / contact information
 
 No heavy system explanation on the first screen.
+
+The hero may remain impersonal and restrained. A deeper path must make the originating builder, method, and evidence discoverable so the brand does not appear authorless.

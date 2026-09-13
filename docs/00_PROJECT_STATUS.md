@@ -3,6 +3,8 @@
 ## Current stage
 Concept lock → browser-led visual research → temporary landing visual development.
 
+Founder/venture architecture was added on 2026-09-13. The site must now preserve founder authorship, system ownership, and continuity through commercialization; see `docs/15_HINGE_AND_RULE_ARCHIVE_ANALYSIS.md` through `docs/18_CROSS_AGENT_HANDOFF_2026-09-13.md`.
+
 ## Immediate target
 Before coding the final temporary landing, complete the AFTON visual reference / Higgsfield browser workflow described in `CODEX_TASK.md`.
 
@@ -33,6 +35,8 @@ Existing Batch 01 output is retained as archival exploration only.
 - Heavy realtime graphics are postponed.
 - FMOC2 integration is a later phase.
 - Image generation must be staged and curated rather than volume-driven.
+- AFTON ownership and the joint-R&D agreement must be resolved before any agreement is treated as executable; the current draft contains conflicting ownership language.
+- This public repository must not contain confidential formulas, credentials, personal financial information, private customer data, or confidential partner material.
 
 ## Long-term target
 AFTON Studio eventually becomes a precomputed custom-fragrance workshop:
