@@ -106,3 +106,18 @@ The task is complete when the repository contains:
 6. `PROPOSED AFTON LANDING GRAMMAR v0.1`
 7. a concise commit / issue comment reporting Phase B completion
 8. no new generated media and no credit spend
+
+---
+
+## Parallel authorized task — Hinge & Rule internal archive research
+
+The founder confirmed that the public-web trace is only an outer index. The primary evidence is held in internal estimates, saved project documents, furniture drawings, shop drawings, site drawings, revision files, and related records.
+
+Read and follow:
+
+- `docs/28_HINGE_INTERNAL_ARCHIVE_RESEARCH_HANDOFF.md`
+- `research/hinge-and-rule-internal-archive/INTERNAL_ARCHIVE_INDEX_TEMPLATE.csv`
+
+This is a read-only discovery and indexing task. It does not cancel or relax the Phase B image-generation HOLD.
+
+Do not commit original internal documents, exact private storage paths, customer contact details, signatures, account/tax identifiers, residential addresses, confidential contract terms, or unapproved line-item pricing. Use abstract source IDs in the public repository and keep any source locator local and untracked.
