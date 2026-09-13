@@ -1,101 +1,129 @@
-# CODEX TASK — AFTON Visual Research / Phase B
+# CODEX TASK — AFTON Non-Visual Editorial Core
 
 ## Current objective
-Build the **reference contact sheet and concrete landing grammar** from the completed Phase A collection.
 
-Phase A reference collection is complete.
+Implement the design-neutral AFTON editorial core and five-page reading path while the user prepares the visual design separately.
 
-**Do not generate images yet.**
-Higgsfield generation remains on HOLD until the user reviews and explicitly approves the contact sheet / landing grammar.
+Primary handoff:
+- `docs/22_NON_VISUAL_EDITORIAL_CORE_HANDOFF.md`
+
+The R08-led design direction remains approved as research context, but final visual design is user-owned and must not block this implementation slice.
 
 ## Read first
+
 1. `AGENTS.md`
-2. `research/REFERENCE_MANIFEST.md`
-3. `docs/11_DESIGN_MOTIF_LIBRARY_V01.md`
-4. `docs/12_MOTIF_REVIEW_CURRENT.md`
-5. `docs/13_REFERENCE_CONTACT_SHEET_SPEC.md`
-6. `docs/07_IMAGE_PROMPT_LIBRARY.md` — planning material only; do not execute
+2. `docs/20_DIRECTION_APPROVAL_AND_FOUNDER_HANDOFF.md`
+3. `docs/22_NON_VISUAL_EDITORIAL_CORE_HANDOFF.md`
+4. `docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md` — design research history only
+5. `research/REFERENCE_MANIFEST.md` — research provenance only
 
-## Phase B — contact sheet + motif micro-selection
+Do not restart Phase B reference approval or image-generation planning.
 
-### Step 1 — normalize reference filenames
-Inspect the existing files under:
-`research/reference-only/`
+## Required implementation
 
-Normalize filenames so every reference file has the correct image extension matching its actual format.
+Reuse the existing Astro project.
 
-Rules:
-- preserve the original bytes
-- do not resize / recompress / crop / recolor
-- keep all third-party references under `research/reference-only/`
-- update `research/REFERENCE_MANIFEST.md` to the final normalized paths
+Implement and validate:
 
-### Step 2 — build the contact sheet
-Create:
-`docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md`
+- `/`
+- `/issues/[slug]/`
+- `/articles/[slug]/`
+- `/scents/[slug]/`
+- `/info/`
 
-Follow `docs/13_REFERENCE_CONTACT_SHEET_SPEC.md` exactly.
+Required paths:
 
-If useful for visual inspection, also create:
-`research/reference-contact-sheet.html`
+`Home → Issue → Article → Scent Dossier → Info / sample information`
 
-The Markdown file remains the source of truth.
+and:
 
-The contact sheet must show all 14 collected references and group them by motif.
+`Home → Scent Dossier`
 
-### Step 3 — annotate every frame
-For each reference frame record:
-- source / project
-- exact source URL
-- motif
-- BORROW
-- DO NOT COPY
-- AFTON USE
+Implement the eight core entity contracts:
 
-Keep the analysis tied to what the actual collected frame demonstrates.
-Do not fill gaps from general design knowledge when the frame does not support the claim.
+- Issue
+- Article
+- ScentDossier
+- Material
+- Object
+- Record
+- Product
+- Availability
 
-### Step 4 — motif micro-selection
-Use the evidence to reduce the primary motifs into **concrete visual moves**.
+Use one clearly marked candidate fixture set. Keep unknown facts genuinely unknown. Do not insert personal context, private research, reference imagery or excluded generated images into public-facing fixtures.
 
-Focus first on:
-- M01 CONTROLLED VARIATION
-- M03 AMBIGUOUS CENTER
-- M04 ORDER + ONE CONTRADICTION
+## Implementation rules
 
-M06 ARCHIVE / RETURN / TIME should become an information-architecture rule rather than a copied visual treatment.
+- IDs and slugs are separate.
+- Issue owns ordered Article references.
+- Reverse relationships are derived, not duplicated.
+- Runtime validation is required.
+- Sensory reference material is distinct from documented formula ingredients.
+- Availability defaults to `unknown` unless a valid accepted state exists.
+- No image is required for the core to work.
+- Semantic HTML and minimal legibility CSS only; do not make final design decisions.
+- Preserve the official wordmark.
+- Existing exploratory visual files may remain, but do not force ScentField or legacy visual tokens into the new core.
 
-M02 and M05 remain supporting/future interaction motifs.
+## Fresh validation required
 
-### Step 5 — proposed landing grammar
-End `docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md` with:
-`PROPOSED AFTON LANDING GRAMMAR v0.1`
+Run and report fresh results for:
 
-Maximum 6 rules.
-Every rule must be concrete enough to implement later in CSS/layout/image direction.
+- `npm run check`
+- `npm run build`
+- newly added unit/content-integrity tests
 
-Do not define fake precision. If no real measurement has been tested, describe the relationship qualitatively.
+Test at minimum:
 
-### Step 6 — stop for user approval
-Stop after the contact sheet and landing grammar are committed.
+- required fields and enums;
+- duplicate IDs/slugs;
+- broken/wrong-type references;
+- Issue article order;
+- reverse indexing;
+- Availability constraints;
+- candidate/public separation;
+- raw-HTML safety;
+- internal links and anchors;
+- valid/invalid Issue context on Article;
+- empty/product/availability states;
+- headings, main landmark, skip link and keyboard navigation;
+- narrow viewport / long title overflow;
+- no personal-context, third-party reference or excluded generated assets in build output;
+- no checkout/login/personalization/FMOC2 code;
+- adding one Article to data automatically exposes a working list entry and page.
 
-Do **not**:
-- generate in Higgsfield
-- use image-generation API/MCP tools
-- spend credits
-- execute P01–P24
-- build or merge a final landing
-- deploy the site
+Do not reuse old PR test results as proof of the new implementation.
 
-Wait for explicit user approval.
+## Deliverable
 
-## Completion condition for Phase B
-The task is complete when the repository contains:
-1. normalized reference filenames
-2. updated `research/REFERENCE_MANIFEST.md`
-3. `docs/13_REFERENCE_CONTACT_SHEET_CURRENT.md`
-4. optional `research/reference-contact-sheet.html` if useful
-5. concrete micro-selection for M01/M03/M04
-6. `PROPOSED AFTON LANDING GRAMMAR v0.1`
-7. a concise commit / issue comment reporting Phase B completion
-8. no new generated media and no credit spend
+Return:
+
+1. working local five-page path;
+2. content contracts and candidate dataset;
+3. runtime and relationship validation;
+4. fresh check/build/test output;
+5. exact tested SHA;
+6. changed files;
+7. blockers;
+8. next owner/action;
+9. concise Git receipt.
+
+Do not stop at another strategy document.
+
+## Hard HOLDs
+
+Do not:
+
+- generate images;
+- spend credits;
+- run Higgsfield prompt rounds;
+- merge PR #1;
+- deploy or attach `afton.works`;
+- add checkout/reservations;
+- synchronize real inventory;
+- add accounts/login;
+- add personalization;
+- connect FMOC2;
+- publish candidate fixtures as confirmed product facts.
+
+FINAL STATUS: IMPLEMENTATION_AUTHORIZED / DESIGN_USER_OWNED / MOOD_APPROVAL_REQUIRED / GENERATION HOLD / CREDIT SPEND HOLD / MERGE HOLD / DEPLOY HOLD
