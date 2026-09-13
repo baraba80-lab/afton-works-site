@@ -38,6 +38,31 @@ Reconstruct the searchable public record of Hinge & Rule across owned accounts, 
 - 네일바유
 - 마나올라나
 
+## Founder-supplied expansion terms
+
+The following names were supplied after the first broad-search pass and must be treated as high-priority discovery seeds. A supplied name is not, by itself, public proof of Hinge & Rule's role.
+
+- 차덕분 / 아침의차덕분
+- 페브 / 페브커피 / 페브 플라워
+- 해피브릭
+- 요가뜰 / 요가원 뜰 / 요가원뜰
+- 예원피아노 / 예원피아노학원
+- 정갈스레 / `jeonggalseure_2019`
+- 취리희 / 취리히
+- 뭐해줄까
+- 체이스커피 / 체이스 커피
+- 벗터 / 키즈베이킹클래스
+- 알파콜렉티브 / 알파 콜렉티브 / Ahlfah! Collective / 나비플렉스
+
+### Identity cautions
+
+- `취리희` is repeatedly normalized or mistyped as `취리히` in reviews and search snippets.
+- `요가뜰` is indexed in the Hinge portfolio as `요가원 뜰` / `요가원뜰`; do not merge it with other current Yeongjong yoga businesses.
+- `해피브릭` has both a Yeongjong place trace and a much stronger nationwide pixel-bead ecommerce footprint. Confirm the project address and business owner before merging records.
+- `페브` currently resolves most clearly to a Yeongjong flower shop/cafe (`페브 플라워`, `페브커피`), but no Hinge-authored project post has yet been recovered.
+- `알파콜렉티브` is a Seoul Sinsa-dong venue created by Busan-incubated company Naviflex. References to Busan may describe the operator's origin or later Busan programming, not the venue address.
+- `뭐해줄까` is not yet resolved to a unique business identity; exact spelling, category, or account handle is required.
+
 ## Surfaces checked
 
 | Surface | Result | Limitation |
@@ -67,4 +92,3 @@ Reconstruct the searchable public record of Hinge & Rule across owned accounts, 
 ## Stop condition
 
 The first pass stopped when additional broad queries mostly returned dating-app/hardware noise or duplicates of the same Instagram, Threads, Soomgo, and Maison Fantasia records. The next pass should begin from founder-held project names, contracts, invoices, original files, and collaborator lists rather than repeating broad brand-name search.
-
