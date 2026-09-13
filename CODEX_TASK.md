@@ -13,11 +13,12 @@ Higgsfield generation remains on HOLD until the user reviews and explicitly appr
 2. `docs/18_CROSS_AGENT_HANDOFF_2026-09-13.md`
 3. `docs/16_FOUNDER_OPERATING_SYSTEM.md`
 4. `docs/17_AFTON_VENTURE_ARCHITECTURE_AND_ROADMAP.md`
-5. `research/REFERENCE_MANIFEST.md`
-6. `docs/11_DESIGN_MOTIF_LIBRARY_V01.md`
-7. `docs/12_MOTIF_REVIEW_CURRENT.md`
-8. `docs/13_REFERENCE_CONTACT_SHEET_SPEC.md`
-9. `docs/07_IMAGE_PROMPT_LIBRARY.md` — planning material only; do not execute
+5. `docs/20_INSTAGRAM_ARCHIVE_TRANSITION_PLAN.md`
+6. `research/REFERENCE_MANIFEST.md`
+7. `docs/11_DESIGN_MOTIF_LIBRARY_V01.md`
+8. `docs/12_MOTIF_REVIEW_CURRENT.md`
+9. `docs/13_REFERENCE_CONTACT_SHEET_SPEC.md`
+10. `docs/07_IMAGE_PROMPT_LIBRARY.md` — planning material only; do not execute
 
 ## Phase B — contact sheet + motif micro-selection
 
