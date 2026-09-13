@@ -1,0 +1,64 @@
+---
+import Body from './Body.astro';
+import type { PageView } from '../../editorial/core.js';
+interface Props { page:PageView }
+const {page}=Astro.props;
+const sections=page.sections.filter(s=>s.id||s.paragraphs?.length||s.links?.length||s.blocks?.length);
+---
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>{page.title} | AFTON 기능 검토</title>
+    <meta name="description" content="디자인을 적용하지 않은 AFTON 콘텐츠 코어 검토본" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a href="#main">본문 바로가기</a>
+    <header>
+      <a href="/" aria-label="AFTON 홈"><img src="/brand/afton-wordmark.svg" alt="afton." width="160" /></a>
+      <nav aria-label="주 메뉴"><ul>
+        <li><a href="/#issues">발행물</a></li>
+        <li><a href="/#scents">향기 기록</a></li>
+        <li><a href="/info/" aria-current={page.kind==='info'?'page':undefined}>안내</a></li>
+      </ul></nav>
+    </header>
+    <aside aria-label="검토 상태"><p><strong>CANDIDATE / 기능 검토용. 디자인 시안이 아닙니다.</strong></p><p>예시 제목·원고·상품은 확정 정보가 아닙니다. 주문·예약은 받지 않습니다.</p></aside>
+    <nav aria-label="현재 위치"><a href="/">홈</a> / <span aria-current="page">{page.title}</span></nav>
+    <main id="main" tabindex="-1">
+      <h1>{page.title}</h1>
+      {page.state&&<p>{page.state==='archived'?'지난 기록':page.state==='draft'?'검토 중인 초안':'발행 콘텐츠'}</p>}
+      {page.summary&&<p>{page.summary}</p>}
+      {page.contexts?.map(c=><nav data-issue-context={c.slug} aria-label="이슈 읽기 순서" hidden>
+        <p>{c.title} · {c.position} / {c.total}</p>
+        <ul>{c.links.map(l=><li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </nav>)}
+      <Body blocks={page.blocks}/>
+      {sections.map(s=><section id={s.id}>
+        <h2>{s.title}</h2>
+        {s.paragraphs?.map(p=><p>{p}</p>)}
+        <Body blocks={s.blocks} nested />
+        {s.links?.length?<ul>{s.links.map(l=><li><a href={l.href}>{l.label}</a></li>)}</ul>:null}
+      </section>)}
+    </main>
+    <footer><p>AFTON 콘텐츠 기능 검토본</p><a href="/info/#samples">샘플 안내</a></footer>
+  </body>
+</html>
+<style>
+  /* Functional overflow safeguards only; not a design system. */
+  body { overflow-wrap: anywhere; }
+  img { max-width: 100%; height: auto; }
+  [hidden] { display: none !important; }
+</style>
+<script>
+  function showIssueContext(){
+    const requested=new URLSearchParams(window.location.search).get('issue');
+    document.querySelectorAll<HTMLElement>('[data-issue-context]').forEach(el=>{
+      el.hidden=el.dataset.issueContext!==requested;
+    });
+  }
+  showIssueContext();
+  window.addEventListener('popstate',showIssueContext);
+</script>

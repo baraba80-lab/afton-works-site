@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "target":"ES2022", "module":"NodeNext", "moduleResolution":"NodeNext", "strict":true, "rootDir":".", "outDir":".editorial-test", "types":["node"], "skipLibCheck":true },
+  "include":["src/editorial/**/*.ts","src/content/**/*.ts","tests/**/*.ts"]
+}

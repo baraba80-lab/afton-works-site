@@ -1,0 +1,7 @@
+---
+import Document from '../components/editorial/Document.astro';
+import { loadReviewCore } from '../content/load.js';
+loadReviewCore();
+const page={path:'/404.html',kind:'not_found',title:'페이지를 찾을 수 없습니다',sections:[{title:'다른 페이지로',links:[{href:'/',label:'AFTON 홈'},{href:'/info/',label:'안내'}]}]};
+---
+<Document {page}/>
