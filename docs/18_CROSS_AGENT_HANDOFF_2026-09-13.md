@@ -34,6 +34,13 @@ The public-web trace is now documented in:
 - `research/hinge-and-rule-public-trace/SEARCH_LOG_2026-09-13.md`
 
 This pass recovered client/collaborator credits, Soomgo operating and project records, Threads method notes, YouTube/Today House traces, and business-directory name variants. Treat the source ledger as the discovery map for future archive verification.
+
+The founder subsequently supplied eleven additional project/search seeds. The expanded record is in:
+
+- `research/hinge-and-rule-public-trace/FOUNDER_PROJECT_SEED_LEDGER_2026-09-13.csv`
+- the `Founder-supplied local network expansion` section of `docs/25_HINGE_AND_RULE_PUBLIC_TRACE_REPORT.md`
+
+Do not collapse these into one confidence level. `정갈스레` includes a direct client thank-you; `차덕분`, `요가원 뜰`, `예원피아노`, `취리희`, `체이스커피`, and `벗터` have Hinge-authored traces; `페브` and `해피브릭` still require identity/project linkage; `뭐해줄까` remains unresolved. Ahlfah! Collective is a Seoul venue run by a Busan-incubated operator, so preserve the Busan/Seoul distinction.
 ## Strategic decisions
 
 1. Hinge & Rule remains the founder proof/archive and selective cash engine.
