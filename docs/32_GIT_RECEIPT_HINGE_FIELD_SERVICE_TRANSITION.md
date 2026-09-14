@@ -34,4 +34,12 @@ Create the FIELD DESIGN DAY one-page offer, time/cost rate calculator, short sco
 ## Commit
 
 Local strategy commit: `9ff34cb` (`strategy: define Hinge field design transition`).  
-Remote publication commit(s): pending.
+Local receipt update: `65946ff` (`docs: record Hinge transition strategy commit`).
+
+Remote publication commits on `main`:
+
+- `71851112b5eddc1b7180579e6576b68d3c0fbc56` — Hinge cash-engine revision
+- `b205e76c998eafdd382c23650d30f8ea5c7eb522` — cross-agent handoff
+- `7df88f6cd75b82792d1964e24a41b81ffec9aa9d` — Instagram continuation revision
+- `eb28a8e1cbf219a07ffc7dacfa71cf1590af70cc` — field design and making model
+- `1a05f67c1b2651b6ba4bbd26a89ad3a6218a2f28` — initial remote receipt
