@@ -1,5 +1,7 @@
 # Git Receipt — Hinge Field Design and Making Transition
 
+> Superseded in operating-model detail by `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` v0.2 and `docs/33_GIT_RECEIPT_HINGE_CARPENTRY_DAY_CORRECTION.md`. The separate FIELD DESIGN DAY / DRAWING SPRINT structure is no longer binding.
+
 Date: 2026-09-14
 
 ## Decision recorded
@@ -29,7 +31,7 @@ No service was launched. No price was announced. No customer was contacted. No I
 
 ## Exact next action
 
-Create the FIELD DESIGN DAY one-page offer, time/cost rate calculator, short scope-confirmation form, Decision Log, direct-trade guide, and first-three-post source selection. Obtain focused Korean tax/labor/construction-law review before the first paid pilot.
+Historical note only: this next action was superseded. Follow `docs/33_GIT_RECEIPT_HINGE_CARPENTRY_DAY_CORRECTION.md`; build one integrated carpentry-day model and do not recreate standalone field-design or drawing products. Obtain focused Korean tax/labor/construction-law review before the first paid pilot.
 
 ## Commit
 

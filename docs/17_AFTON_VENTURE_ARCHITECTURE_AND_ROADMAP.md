@@ -23,9 +23,9 @@ The sequence should move from cash-near work to compounding assets without waiti
 
 ### Engine 1 — paid design/build proof
 
-Hinge & Rule is transitioning away from conventional full-scope interior contracting and its open-ended responsibility. The cash-near offer becomes bounded field design/consultation days, short drawing sprints, selected site-translation visits, direct carpentry and furniture making, and transparent introductions through which clients contract and pay each trade directly.
+Hinge & Rule is ending conventional full-scope interior contracting and its open-ended responsibility. The cash-near offer is one integrated role: a design-capable carpenter paid by the carpentry workday. Measurement, planning, sketching, CAD, material takeoff, order support and direct tool work happen inside that day rather than being sold as separate design or consultation products. Design-only and planning-only commissions are excluded.
 
-The objective is not contract avoidance. Each scope must use a short written confirmation while payment, direction, completion responsibility, and defects remain with the correct party. Do not describe independent professional services as casual day labor. Follow `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md`.
+Clients directly approve, order and pay for materials. They also directly select, contract, pay and may replace every other trade. Hinge & Rule does not collect the total project budget, direct other trades, manage the whole site or promise overall completion. The objective is not contract avoidance: each workday and furniture delivery still uses a short scope record, and the actual tax/labor/legal classification must be reviewed before a paid pilot. Follow `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` v0.2.
 
 ### Engine 2 — FORMUTE B2B pilots
 

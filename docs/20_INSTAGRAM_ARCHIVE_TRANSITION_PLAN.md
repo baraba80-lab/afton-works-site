@@ -280,10 +280,10 @@ This document authorizes planning only.
 
 ## 12. Revised continuation — field design and making
 
-Hinge & Rule will not necessarily become static after the Volume One edition. The founder intends to reduce full-scope interior contracting while continuing paid on-site consultation and sketching, bounded drawing work, carpentry, furniture design/making, selected site visits, and transparent introductions between clients and trusted trades.
+Hinge & Rule will not necessarily become static after the Volume One edition. The founder will stop taking full-scope interior contracts and continue as a design-capable carpenter. Planning, measurement, sketching, CAD, material takeoff, order support and direct carpentry are not separate design products: they are different kinds of work performed within a paid carpentry day. Design-only and planning-only commissions are not offered.
 
 The feed must gradually explain this operating transition before exposing AFTON and AI work:
 
-`VOLUME ONE → WHAT CHANGES → WHAT REMAINS → FIELD DESIGN DAY → DIRECT CONTRACT → OPEN CREW → HINGE MAKING → AFTON / AI CONTINUATION`
+`VOLUME ONE → WHAT CHANGES → WHAT REMAINS → ONE CARPENTER, TWO LANGUAGES → A DAY IS THE UNIT → MATERIALS IN YOUR HAND → DIRECT TO THE MAKER → HINGE MAKING → AFTON / AI CONTINUATION`
 
-Do not market this as contract-free day labor. Use `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` as the binding service, responsibility and content model.
+Clients order and pay for materials directly. Clients also select, contract, pay and may replace other trades directly; Hinge & Rule does not manage those trades or the whole site. Do not market this as contract-free day labor, a design consultancy, or general contracting. Use `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` v0.2 as the binding operating and content model.

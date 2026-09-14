@@ -8,6 +8,15 @@ Phase A reference collection is complete.
 **Do not generate images yet.**
 Higgsfield generation remains on HOLD until the user reviews and explicitly approves the contact sheet / landing grammar.
 
+## Binding founder correction — Hinge & Rule
+
+For any Hinge & Rule strategy, archive interpretation, feed planning or service-language work, read:
+
+- `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` v0.2
+- `docs/33_GIT_RECEIPT_HINGE_CARPENTRY_DAY_CORRECTION.md`
+
+Do not recreate the superseded standalone `FIELD DESIGN DAY`, `DRAWING SPRINT` or design-consulting products. The binding model is one design-capable carpenter paid by the carpentry workday; planning, measurement, sketches, CAD, material takeoff, order support and direct tool work occur inside that workday. Design-only and planning-only commissions are excluded. Clients directly order and pay for materials and directly select, contract, pay and may replace all other trades. Hinge & Rule does not take the full interior contract or manage the whole site.
+
 ## Read first
 1. `AGENTS.md`
 2. `docs/18_CROSS_AGENT_HANDOFF_2026-09-13.md`
