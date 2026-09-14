@@ -1,12 +1,12 @@
 # Instagram Archive Transition Plan
 
 Date: 2026-09-13  
-Status: strategy approved for planning; no Instagram mutations performed  
+Status: revised planning strategy; no Instagram mutations performed
 Accounts reviewed: `@hinge_and_rule`, `@hinge_and_rule_official`, `@sumboy_v_and_v`
 
 ## Decision
 
-Do not erase Hinge & Rule and do not keep pretending it is an expanding conventional design office.
+Do not erase Hinge & Rule and do not keep presenting it as an expanding conventional full-scope interior contractor.
 
 Close its active era with dignity by converting the account family into a legible record of the founder's method. Use UNSEEN_RATIO as the editorial bridge from that material practice into AFTON's research on scent, memory, image, and perception.
 
@@ -20,7 +20,7 @@ This is continuity, not a sudden rebrand.
 
 | Account | New role | Continue publishing? | What it must retain |
 |---|---|---:|---|
-| `@hinge_and_rule` | founder-led working archive, 2016–2026 | limited closing edition, then occasional evidence only | personality, chronology, making, site reality, relationships, unfinished edges |
+| `@hinge_and_rule` | founder-led field design, making and research archive | yes, controlled transition and selective ongoing evidence | personality, chronology, field judgment, making, direct-work model, unfinished edges, new research |
 | `@hinge_and_rule_official` | selected professional index | no duplicate daily feed | strongest finished projects, credits, role clarity, inquiry path |
 | `@sumboy_v_and_v` / UNSEEN_RATIO | AFTON sensory research publication | yes, primary editorial cadence | ambiguity, perception, material evidence, research process, delayed product reveal |
 
@@ -50,9 +50,9 @@ The 540-post founder account is not clutter alone. It is evidence of a decade mo
 
 Never mass-delete. First record URL, date, project, people/credits, media status, and KEEP / REWRITE / ARCHIVE / RIGHTS-CHECK classification. Archiving is reversible; deletion is not the default.
 
-## 3. Hinge & Rule closing edition
+## 3. Hinge & Rule Volume One edition
 
-Publish one final nine-post edition. It should read as a compressed retrospective, not a funeral notice and not a fake relaunch.
+Publish one nine-post Volume One edition. It should read as a compressed retrospective and transition threshold, not a funeral notice and not a fake relaunch.
 
 ### Target top-grid reading order
 
@@ -110,7 +110,7 @@ Pin the method statement, selected-work index, and present transition when the c
 
 ### `@hinge_and_rule_official`
 
-Treat it as a clean index. Keep only selected-project publishing and accurate inquiry information. Do not repost every closing-edition item. Its first visible surface should answer:
+Treat it as a clean index. Keep only selected-project publishing and accurate inquiry information. Do not repost every Volume One item. Its first visible surface should answer:
 
 1. What did Hinge & Rule make?
 2. What role did it actually perform?
@@ -243,7 +243,7 @@ Never move personal perception replies into a research dataset without an explic
 
 ### Week 2 — editorial system
 
-- design the Hinge nine-post closing edition
+- design the Hinge nine-post Volume One edition
 - write the profile/index language
 - build UNSEEN Issue 01 contact sheet
 - define caption and credit templates
@@ -256,7 +256,7 @@ Never move personal perception replies into a research dataset without an explic
 
 ### Weeks 4–5 — controlled release
 
-- publish Hinge closing edition without bulk dumping
+- publish the Hinge Volume One edition without bulk dumping
 - begin UNSEEN Issue 01 at two posts per week
 - connect Stories only to real process evidence
 
@@ -264,17 +264,26 @@ Never move personal perception replies into a research dataset without an explic
 
 - review saves, qualified visits, inquiries, and production cost
 - keep only the formats that create proof, research value, or demand
-- decide whether Hinge becomes fully static or receives quarterly evidence updates
+- decide which field-design, making and research formats deserve selective ongoing publication
 
 ## 11. Stop conditions
 
-Do not change biographies, archive/delete posts, publish the closing edition, add cross-account links, or post AFTON material until the founder approves:
+Do not change biographies, archive/delete posts, publish the Volume One edition, add cross-account links, or post AFTON material until the founder approves:
 
 1. the post ledger
 2. the exact nine-post grid
-3. the bio and closing text
+3. the bio and transition text
 4. the UNSEEN Issue 01 contact sheet
 5. credits and rights
 
 This document authorizes planning only.
 
+## 12. Revised continuation — field design and making
+
+Hinge & Rule will not necessarily become static after the Volume One edition. The founder intends to reduce full-scope interior contracting while continuing paid on-site consultation and sketching, bounded drawing work, carpentry, furniture design/making, selected site visits, and transparent introductions between clients and trusted trades.
+
+The feed must gradually explain this operating transition before exposing AFTON and AI work:
+
+`VOLUME ONE → WHAT CHANGES → WHAT REMAINS → FIELD DESIGN DAY → DIRECT CONTRACT → OPEN CREW → HINGE MAKING → AFTON / AI CONTINUATION`
+
+Do not market this as contract-free day labor. Use `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` as the binding service, responsibility and content model.
