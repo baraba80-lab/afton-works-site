@@ -23,7 +23,9 @@ The sequence should move from cash-near work to compounding assets without waiti
 
 ### Engine 1 — paid design/build proof
 
-Use selective Hinge & Rule projects to fund operations and demonstrate the founder's ability to join concept, furniture, fabrication, brand, and use. Accept fewer projects; require a documented retained asset and usable case study.
+Hinge & Rule is transitioning away from conventional full-scope interior contracting and its open-ended responsibility. The cash-near offer becomes bounded field design/consultation days, short drawing sprints, selected site-translation visits, direct carpentry and furniture making, and transparent introductions through which clients contract and pay each trade directly.
+
+The objective is not contract avoidance. Each scope must use a short written confirmation while payment, direction, completion responsibility, and defects remain with the correct party. Do not describe independent professional services as casual day labor. Follow `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md`.
 
 ### Engine 2 — FORMUTE B2B pilots
 
