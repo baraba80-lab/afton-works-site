@@ -51,6 +51,8 @@ Do not collapse these into one confidence level. `정갈스레` includes a direc
 6. Soappuccino is the core perfumery/R&D collaborator. The founder leads design/business/system work; Soappuccino leads perfumery/material/sensory work.
 7. Every project must recover cash, IP, data, proof, audience, and/or distribution for the participating system according to contribution and agreement.
 8. Founder authorship must be discoverable in credits, process evidence, and the website's deeper information architecture.
+9. Hinge & Rule is no longer assumed to become a static archive after its Volume One edition. It may continue as a bounded field-design, consultation, carpentry, furniture-making, site-translation and transparent trade-connection practice.
+10. Do not translate this into “contract-free day labor.” Responsibility must be reduced through separate scopes, direct client–trade contracts and payments, and short written confirmations. Read `docs/31_HINGE_FIELD_DESIGN_MAKING_TRANSITION.md` before changing Hinge services or feed strategy.
 
 ## Immediate warning
 
@@ -93,3 +95,5 @@ In parallel, the Hinge & Rule archive has one approved preparation task that doe
 The founder has now confirmed that the internal archive also contains estimates, saved project documents, furniture drawings, shop drawings, site drawings, and related design records. Treat these as the primary evidence layer for authorship, scope, chronology, fabrication knowledge, and site execution. The exact research procedure, security boundary, evidence grades, and deliverables are binding in `docs/28_HINGE_INTERNAL_ARCHIVE_RESEARCH_HANDOFF.md`.
 
 The next Codex must begin with a read-only inventory of already authorized and accessible storage. It must not upload raw internal files to this public repository. Public outputs may contain only sanitized metadata, abstract source IDs, project associations, evidence grades, and findings that do not expose private client or commercial information.
+
+In parallel, the founder has authorized planning for Hinge & Rule's operating transition. The next planning deliverables are a one-page FIELD DESIGN DAY offer, a time/cost rate calculator, a scope-confirmation form, a Decision Log, a direct-trade guide, and source-image selection for the first three transition posts. No service launch or Instagram mutation is authorized yet.
